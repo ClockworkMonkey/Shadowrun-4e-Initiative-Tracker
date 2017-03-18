@@ -7,3 +7,7 @@ Character::Character(int ini, int phys_m, int phys_c, int stun_m, int stun_c) : 
 Character::Character(const Character & copy) : initiative(copy.initiative), max_phys(copy.max_phys), max_stun(copy.max_stun), curr_phys(copy.curr_phys), curr_stun(copy.curr_stun)
 {
 }
+
+Character::~Character()
+{
+}
