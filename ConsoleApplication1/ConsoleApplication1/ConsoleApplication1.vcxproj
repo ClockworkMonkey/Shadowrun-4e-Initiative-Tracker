@@ -144,13 +144,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="character.cpp" />
-    <ClCompile Include="dice.cpp" />
+    <ClCompile Include="D6.cpp" />
     <ClCompile Include="initiative.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="character.h" />
-    <ClInclude Include="dice.h" />
+    <ClInclude Include="D6.h" />
     <ClInclude Include="initiative.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

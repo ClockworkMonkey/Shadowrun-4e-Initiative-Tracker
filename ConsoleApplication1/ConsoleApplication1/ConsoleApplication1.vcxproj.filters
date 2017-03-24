@@ -18,13 +18,13 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="dice.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="character.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="initiative.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D6.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -35,7 +35,7 @@
     <ClInclude Include="initiative.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="dice.h">
+    <ClInclude Include="D6.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

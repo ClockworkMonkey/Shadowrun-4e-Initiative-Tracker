@@ -1,7 +1,7 @@
 #ifndef _CHARACTER_
 #define _CHARACTER_
 
-#include "Dice.h"
+#include "D6.h"
 
 class Character
 {
@@ -9,8 +9,6 @@ public:
 	Character(int ini, int phys_m, int phys_c, int stun_m, int stun_c);
 	Character(const Character & copy);
 	~Character();
-
-
 
 private:
 	int initiative;
