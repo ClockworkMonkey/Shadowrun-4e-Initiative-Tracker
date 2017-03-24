@@ -2,10 +2,13 @@
 #define _INITIATIVE_
 
 #include <vector>
+#include <iostream>
+#include <fstream>
 #include "character.h"
 #include "D6.h"
 
 using std::vector;
+using std::ofstream;
 
 class Initiative
 {
@@ -16,16 +19,22 @@ public:
 	~Initiative();
 	
 	//add to list
+	void add(Character new_char);
 
 	//remove from list
+	void remove(string name);
 
 	//save list
+	void save(string filename);
 
 	//load list
+	void load(string filename);
 
-	//damage
+		//damage
+	void damage(string name, int damage, char type);
 
 	//heal
+	void heal(string name, int damage, char type);
 
 	//main loop
 
